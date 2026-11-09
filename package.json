@@ -1,6 +1,6 @@
 {
-  "name": "hash-wasm",
-  "version": "4.13.0",
+  "name": "@keri-ts/hash-wasm",
+  "version": "4.13.1",
   "description": "Lightning fast hash functions for browsers and Node.js using hand-tuned WebAssembly binaries (MD4, MD5, SHA-1, SHA-2, SHA-3, Keccak, BLAKE2, BLAKE3, PBKDF2, Argon2, bcrypt, scrypt, Adler-32, CRC32, CRC32C, RIPEMD-160, HMAC, xxHash, SM3, Whirlpool)",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
@@ -12,9 +12,12 @@
     "test": "node --expose-gc ./node_modules/.bin/jest --coverage --logHeapUsage"
   },
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daninet/hash-wasm.git"
+    "url": "git+https://github.com/kentbull/hash-wasm.git"
   },
   "keywords": [
     "hash",
@@ -72,9 +75,9 @@
     "whirlpool"
   ],
   "bugs": {
-    "url": "https://github.com/Daninet/hash-wasm/issues"
+    "url": "https://github.com/kentbull/hash-wasm/issues"
   },
-  "homepage": "https://github.com/Daninet/hash-wasm#readme",
+  "homepage": "https://github.com/kentbull/hash-wasm#readme",
   "author": "Dani Biró <danibiro93@gmail.com> (https://danibiro.com)",
   "license": "MIT",
   "devDependencies": {

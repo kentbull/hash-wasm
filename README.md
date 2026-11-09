@@ -1,5 +1,7 @@
 # hash-wasm
 
+> **Temporary fork.** This package is `@keri-ts/hash-wasm`, a build of [Daninet/hash-wasm](https://github.com/Daninet/hash-wasm) 4.13.0 plus [PR #86](https://github.com/Daninet/hash-wasm/pull/86) (accept empty Argon2 passwords). It exists so KERI TypeScript libraries can depend on that fix before it is released upstream, and it will be deprecated in favor of `hash-wasm` once upstream ships it. All credit and license terms belong to the original author.
+
 [![npm package](https://img.shields.io/npm/v/hash-wasm.svg)](http://npmjs.org/package/hash-wasm)
 [![Bundle size](https://badgen.net/bundlephobia/minzip/hash-wasm)](https://bundlephobia.com/result?p=hash-wasm)
 [![codecov](https://codecov.io/gh/Daninet/hash-wasm/branch/master/graph/badge.svg)](https://codecov.io/gh/Daninet/hash-wasm)
